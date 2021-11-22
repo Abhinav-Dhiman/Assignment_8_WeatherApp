@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    background-color: rgb(239, 247, 255);
+    font-size: 120%;
+  }
+  
+  .card {
+    background: #050e22d0;
+    color: white;
+    padding: 2em;
+    border-radius: 55px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: rgb(168, 168, 168);
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width:100%;
+  }
+  
+  button:hover {
+    background: yellowgreen;
+  }
+  
+  h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .description {
+    
+    margin-left: 8px;
+  }
+.icon{
+    height: 100px;
+}
+  
+  
